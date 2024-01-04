@@ -1,0 +1,106 @@
+@media screen and (min-width: 1024px) {
+    .main {
+        color: #fff;
+    }
+    .container1{
+
+    }
+    .container1{
+
+    }
+}
+ 
+/* For Tablet View */
+@media screen and (min-device-width: 768px)
+    and (max-device-width: 1024px) {
+    .main {
+        width: 400px;
+        height: 400px;
+    }
+}
+ 
+/* For Mobile Portrait View */
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .main{
+        width: 200px;
+        height: 200px;
+    }
+}
+
+
+
+
+.main {
+    
+	/* Default Styling */
+	font-size: 30px;
+    width: 1340px;
+    height: 1000px;
+}
+
+.container1 {
+    
+	/* Default Styling */
+	font-size: 30px;
+	width: 700px;
+    background-color: #63c971;
+    padding-left: 10px;
+	height: 100px;
+}
+
+
+.part11{
+    width: 1230px;
+    height: 250px;
+    margin-left: 70px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 80px;
+   
+    
+}
+
+.part12{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(warangal1.png);
+    float: top;
+    margin-top: -250px;
+}
+
+.container2 {
+    
+	/* Default Styling */
+	font-size: 30px;
+	width: 700px;
+	height: 100px;
+    padding-left: 10px;
+}
+
+
+.part21{
+    width: 1230px;
+    height: 250px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    margin-right: 70px;
+    margin-top: 200px;
+    border-radius: 80px;
+   
+    
+}
+
+.part22{
+    
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-image: url(warangal1.png);
+    margin-left: 1050px;
+
+    margin-top: -250px;
+}
+
